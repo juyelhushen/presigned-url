@@ -1,0 +1,10 @@
+server:
+  port: 9001
+
+#AWS credentials
+aws:
+  accessKey: **********
+  secretKey: **********
+  region: ap-northeast-1
+  s3:
+    bucket: presigneds3test
