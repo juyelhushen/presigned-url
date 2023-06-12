@@ -8,7 +8,7 @@ WORKDIR /app
 COPY target/presigned.jar .
 
 # Expose the port on which the Spring Boot application listens
-EXPOSE 9000
+EXPOSE 9001
 
 # Define the command to run when the container starts
 CMD ["java", "-jar", "presigned.jar"]
